@@ -77,5 +77,5 @@ variable "internet_query_enabled" { #### Need to undertsand impact
 variable "reservation_capacity_in_gb_per_day" {
   description = "The capacity reservation level in GB for this workspace. Must be in increments of 100 between 100 and 5000."
   type        = number
-  default     = 100
+  default     = null
 }
