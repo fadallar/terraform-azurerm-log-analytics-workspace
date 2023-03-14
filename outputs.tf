@@ -12,7 +12,7 @@ output "primary_shared_key" {
 
 output "secondary_shared_key" {
   description = "The Secondary shared key for the Log Analytics Workspace."
-  value        = azurerm_log_analytics_workspace.this.id
+  value       = azurerm_log_analytics_workspace.this.id
 
 }
 

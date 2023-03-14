@@ -65,13 +65,13 @@ variable "cmk_for_query_forced" {
 variable "internet_ingestion_enabled" {
   description = "Should the Log Analytics Workspace support ingestion over the Public Internet?."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "internet_query_enabled" { #### Need to undertsand impact
   description = "Should the Log Analytics Workspace support querying over the Public Internet?"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "reservation_capacity_in_gb_per_day" {
